@@ -3,9 +3,10 @@
 A robust and secure file distribution system built with Python, enabling efficient file sharing among groups. This tool supports group creation, file distribution, retrieval, and integrity verification using encryption and hash-based verification.
 There are 2 classes implemented- one for server side and another for client.
 
-There are 2 versions included:
+There are 3 versions included:
 version1-
 version2- 
+version3-
 To run the server-
 Execute the command-  python file_dist.py server --port 5000
 

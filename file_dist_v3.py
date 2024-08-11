@@ -446,12 +446,7 @@ class FileDistributionClient:
 
     def execute_post_transfer(self, group_name, file_name, file_path):
         print(f"Executing post-transfer actions for {file_name} in group {group_name}")
-        # Add your post-transfer logic here
-        # For example:
-        # if file_name.endswith('.mp3'):
-        #     os.system(f"play {file_path}")  # This would play the audio file on Unix-like systems
-        # elif file_name.endswith('.py'):
-        #     os.system(f"python {file_path}")  # This would execute the Python script
+        
 
 if _name_ == '_main_':
     parser = argparse.ArgumentParser(description="File Distribution CLI")
